@@ -15,7 +15,8 @@ body {
 
     #root {
         align-items: center;
-        background-color: map-get($darkColors, 'secondary');
+        background-color: lighten(black, 18%);
+        border: 2.5px solid silver;
         border-radius: 7px;
         display: flex;
         height: 500px;
