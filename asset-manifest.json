@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Epokuiso/radio-stations/static/css/main.703b0bac.chunk.css",
-    "main.js": "/Epokuiso/radio-stations/static/js/main.e2fe7ba9.chunk.js",
-    "main.js.map": "/Epokuiso/radio-stations/static/js/main.e2fe7ba9.chunk.js.map",
-    "runtime-main.js": "/Epokuiso/radio-stations/static/js/runtime-main.8014b856.js",
-    "runtime-main.js.map": "/Epokuiso/radio-stations/static/js/runtime-main.8014b856.js.map",
-    "static/js/2.a1c28895.chunk.js": "/Epokuiso/radio-stations/static/js/2.a1c28895.chunk.js",
-    "static/js/2.a1c28895.chunk.js.map": "/Epokuiso/radio-stations/static/js/2.a1c28895.chunk.js.map",
-    "index.html": "/Epokuiso/radio-stations/index.html",
-    "static/css/main.703b0bac.chunk.css.map": "/Epokuiso/radio-stations/static/css/main.703b0bac.chunk.css.map",
-    "static/js/2.a1c28895.chunk.js.LICENSE.txt": "/Epokuiso/radio-stations/static/js/2.a1c28895.chunk.js.LICENSE.txt",
-    "static/media/loading.c57bde9a.svg": "/Epokuiso/radio-stations/static/media/loading.c57bde9a.svg",
-    "static/media/pause.d4c61361.svg": "/Epokuiso/radio-stations/static/media/pause.d4c61361.svg",
-    "static/media/play.15b872b8.svg": "/Epokuiso/radio-stations/static/media/play.15b872b8.svg",
-    "static/media/signal-tower.4223fe80.svg": "/Epokuiso/radio-stations/static/media/signal-tower.4223fe80.svg"
+    "main.css": "/radio-stations/static/css/main.703b0bac.chunk.css",
+    "main.js": "/radio-stations/static/js/main.e2fe7ba9.chunk.js",
+    "main.js.map": "/radio-stations/static/js/main.e2fe7ba9.chunk.js.map",
+    "runtime-main.js": "/radio-stations/static/js/runtime-main.476e0a1b.js",
+    "runtime-main.js.map": "/radio-stations/static/js/runtime-main.476e0a1b.js.map",
+    "static/js/2.a1c28895.chunk.js": "/radio-stations/static/js/2.a1c28895.chunk.js",
+    "static/js/2.a1c28895.chunk.js.map": "/radio-stations/static/js/2.a1c28895.chunk.js.map",
+    "index.html": "/radio-stations/index.html",
+    "static/css/main.703b0bac.chunk.css.map": "/radio-stations/static/css/main.703b0bac.chunk.css.map",
+    "static/js/2.a1c28895.chunk.js.LICENSE.txt": "/radio-stations/static/js/2.a1c28895.chunk.js.LICENSE.txt",
+    "static/media/loading.c57bde9a.svg": "/radio-stations/static/media/loading.c57bde9a.svg",
+    "static/media/pause.d4c61361.svg": "/radio-stations/static/media/pause.d4c61361.svg",
+    "static/media/play.15b872b8.svg": "/radio-stations/static/media/play.15b872b8.svg",
+    "static/media/signal-tower.4223fe80.svg": "/radio-stations/static/media/signal-tower.4223fe80.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.8014b856.js",
+    "static/js/runtime-main.476e0a1b.js",
     "static/js/2.a1c28895.chunk.js",
     "static/css/main.703b0bac.chunk.css",
     "static/js/main.e2fe7ba9.chunk.js"
