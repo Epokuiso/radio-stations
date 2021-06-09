@@ -6,7 +6,7 @@ import './station-list.scss'
 
 const StationList = (props) => {
     return (
-        <div className={ ` station-list ${ props.isToggled ? 'close' : ''}`} onDragEnd={ () => props.toggleRadioList() } onClick={ () => props.toggleRadioList() }>
+        <div className={ ` station-list ${ props.isToggled ? 'close' : ''}`} onDragEnd={ () => props.toggleRadioList() } onClick={ () => !props.isToggled ? props.toggleRadioList() : null }>
         {
             props.stations.map ( station => <RadioStation key={station.frequency} name={ station.name } frequency={ station.frequency } {...station} />)
         }
