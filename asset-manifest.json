@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/radio-stations/static/css/main.0d16dcd6.chunk.css",
-    "main.js": "/radio-stations/static/js/main.8f33af37.chunk.js",
-    "main.js.map": "/radio-stations/static/js/main.8f33af37.chunk.js.map",
+    "main.js": "/radio-stations/static/js/main.101944b5.chunk.js",
+    "main.js.map": "/radio-stations/static/js/main.101944b5.chunk.js.map",
     "runtime-main.js": "/radio-stations/static/js/runtime-main.476e0a1b.js",
     "runtime-main.js.map": "/radio-stations/static/js/runtime-main.476e0a1b.js.map",
     "static/js/2.a1c28895.chunk.js": "/radio-stations/static/js/2.a1c28895.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.476e0a1b.js",
     "static/js/2.a1c28895.chunk.js",
     "static/css/main.0d16dcd6.chunk.css",
-    "static/js/main.8f33af37.chunk.js"
+    "static/js/main.101944b5.chunk.js"
   ]
 }
