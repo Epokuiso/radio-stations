@@ -8,7 +8,7 @@ import { toggleRadioList } from '../../redux/reducers /player/player-actions';
 const Player = (props) => {
     return (
         <div className={ `player ${ props.isToggled ? 'close' : ''}  ${ props.selectedStation.name ? 'pulse' : ''} ` }>
-            <div className={ `tower-container ${ props.selectedStation.imageUrl ? 'rectangle pulse' : '' }` } onClick={ () => props.toggleRadioList() }>
+            <div className={ `tower-container ${ props.selectedStation.imageUrl ? 'rectangle pulse' : '' }` } onClick={ () => !props.isToggled ? props.toggleRadioList() : null }>
                 <img src={` ${ !props.selectedStation.imageUrl ? SignalTower : props.selectedStation.imageUrl }`} alt='Tower Signal' />
             </div>
             <p className={ `${ props.isToggled ? 'fade' : '' }` }>{ props.selectedStation.name }</p>
