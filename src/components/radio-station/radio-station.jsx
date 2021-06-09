@@ -16,9 +16,11 @@ const RadioStation = (props) => {
         <div className={`radio-station ${ props.isToggled ? 'open' : '' }  ${ props.selectedStation.name === radio.name ? 
             'selected' : '' }`}
             onClick={ () => { 
-                props.selectRadio ({ ...radio });
-                if (props.isPlayButtonToggled) 
-                    props.togglePause (); 
+                if (props.isToggled){   
+                    props.selectRadio ({ ...radio });
+                    if (props.isPlayButtonToggled) 
+                        props.togglePause ();
+                } 
                 } }>
             <div className='radio'>
                 <div className='logo-container'>

@@ -13,9 +13,9 @@ const Player = (props) => {
             </div>
             <p className={ `${ props.isToggled ? 'fade' : '' }` }>{ props.selectedStation.name }</p>
             <p className={ `${ props.isToggled ? 'fade' : '' }` }>{ props.selectedStation.frequency }</p>
-            <p onClick={ () => props.toggleRadioList() } 
+            <p onClick={ () => props.toggleRadioList() } onDragEnd={ () => props.toggleRadioList() }  
                 className={`select ${ props.isToggled ? 'fade' : ''} ` }>
-                    Select a Radio Station 
+                   ↑ Select a Radio Station ↑
             </p>
             <PlayButton />
         </div>

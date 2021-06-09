@@ -4,7 +4,6 @@
     align-items: center;
     background-color: inherit;
     border-bottom: 2px solid lighten(black, 20%);
-    cursor: pointer;
     display: flex;
     height: 50px;
     justify-content: space-between;
@@ -58,6 +57,7 @@
 }
 
 .radio-station.open {
+    cursor: pointer;
     opacity: 1;
 }
 
