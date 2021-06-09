@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/radio-stations/static/css/main.acb1f325.chunk.css",
-    "main.js": "/radio-stations/static/js/main.e2fe7ba9.chunk.js",
-    "main.js.map": "/radio-stations/static/js/main.e2fe7ba9.chunk.js.map",
+    "main.css": "/radio-stations/static/css/main.19b9af08.chunk.css",
+    "main.js": "/radio-stations/static/js/main.02d21fb5.chunk.js",
+    "main.js.map": "/radio-stations/static/js/main.02d21fb5.chunk.js.map",
     "runtime-main.js": "/radio-stations/static/js/runtime-main.476e0a1b.js",
     "runtime-main.js.map": "/radio-stations/static/js/runtime-main.476e0a1b.js.map",
     "static/js/2.a1c28895.chunk.js": "/radio-stations/static/js/2.a1c28895.chunk.js",
     "static/js/2.a1c28895.chunk.js.map": "/radio-stations/static/js/2.a1c28895.chunk.js.map",
     "index.html": "/radio-stations/index.html",
-    "static/css/main.acb1f325.chunk.css.map": "/radio-stations/static/css/main.acb1f325.chunk.css.map",
+    "static/css/main.19b9af08.chunk.css.map": "/radio-stations/static/css/main.19b9af08.chunk.css.map",
     "static/js/2.a1c28895.chunk.js.LICENSE.txt": "/radio-stations/static/js/2.a1c28895.chunk.js.LICENSE.txt",
     "static/media/loading.c57bde9a.svg": "/radio-stations/static/media/loading.c57bde9a.svg",
     "static/media/pause.d4c61361.svg": "/radio-stations/static/media/pause.d4c61361.svg",
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.476e0a1b.js",
     "static/js/2.a1c28895.chunk.js",
-    "static/css/main.acb1f325.chunk.css",
-    "static/js/main.e2fe7ba9.chunk.js"
+    "static/css/main.19b9af08.chunk.css",
+    "static/js/main.02d21fb5.chunk.js"
   ]
 }
