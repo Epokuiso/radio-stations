@@ -1,0 +1,28 @@
+@import '../../foundation/theme';
+
+.control-button {
+    background-color: #aa2637;
+    border: 2px solid lighten(grey, 25%);
+    border-radius: 100%;
+    bottom: -25px;
+    box-shadow: 0 0 0 5px map-get($darkColors, 'secondary');
+    cursor: pointer;
+    height: 45px;
+    right: 10%;
+    position: absolute;
+    transition: height 300ms ease-in, width 300ms ease-in, background-color 450ms ease-in-out;
+    width: 45px;
+    z-index: 3;
+    @extend %main-display;
+
+    > img {
+        background-color: inherit;
+        height: 24px;
+    }
+
+    &:hover {
+        background-color: darken(map-get($darkColors, 'tertiary'), 1%);
+        height: 50px;
+        width: 50px;
+    }
+}

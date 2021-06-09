@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+$darkColors: (
+    'primary': #222831,
+    'secondary': #393e46,
+    'tertiary': #c72c41,
+    'alternative': #0f4c75,
+    'hover': #a3f7bf
+);
+
+%main-display {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.pulse{
+    animation-name: pulsation;
+    animation-duration: 4s;
+    animation-delay: 0s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pulsation {
+    0% {
+        border-color: silver;
+    }
+    50% {
+        border-color: lighten(map-get($darkColors , 'tertiary'), 5%);
+    }
+    100% {
+        border-color: silver;
+    }
+}

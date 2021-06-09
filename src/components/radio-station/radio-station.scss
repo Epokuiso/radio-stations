@@ -1,0 +1,75 @@
+@import '../../foundation/theme';
+
+.radio-station{
+    align-items: center;
+    background-color: inherit;
+    border-bottom: 2px solid lighten(black, 20%);
+    cursor: pointer;
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    opacity: 0;
+    transition: all 1s ease-in-out;
+    width: 98%;
+
+    .radio {
+        display: flex;
+        height: 100%;
+        width: 100%;
+    }
+
+    .logo-container {
+        border: 1.5px solid silver;
+        border-radius: 100%;
+        height: 30px;
+        margin-top: 2px;
+        margin-left: 10px;
+        transition: all 500ms ease-in-out;
+        overflow: hidden;
+        width: 30px;
+        @extend %main-display;
+
+        > img {
+            height: 30px;
+            width: 30px;
+        }
+    }
+
+    .info {
+        align-items: center;
+        color: silver;
+        display: inherit;
+        flex-grow: 1;
+        font-family: 'Bree Serif', serif;
+        justify-content: space-between;
+        transition: all 500ms ease-in-out;
+        
+        :first-child(){
+            margin-left: 10px;
+        }
+        :last-child(){
+            margin-right: 10px;
+        }
+    }
+
+    &:hover {
+        background-color: lighten(map-get($darkColors, 'secondary'), 7%);
+    }
+}
+
+.radio-station.open {
+    opacity: 1;
+}
+
+.radio-station.open.selected {
+    background-color: lighten(map-get($darkColors, 'secondary'), 7%);
+
+    .radio {
+        .logo-container {
+            border-color: darken(map-get($darkColors, 'tertiary'), 7%);
+        }
+        .info {
+            color: darken(map-get($darkColors, 'tertiary'), 1%);
+        }    
+    }
+}

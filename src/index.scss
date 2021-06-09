@@ -1,0 +1,27 @@
+@import './foundation/theme';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    outline: none;
+}
+
+body {
+    align-items: center;
+    background-color: map-get($darkColors, 'primary');
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+
+    #root {
+        align-items: center;
+        background-color: map-get($darkColors, 'secondary');
+        border-radius: 7px;
+        display: flex;
+        height: 500px;
+        justify-content: center;
+        overflow: hidden;
+        width: 300px;
+    }
+}
+

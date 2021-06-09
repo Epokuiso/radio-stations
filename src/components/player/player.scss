@@ -1,0 +1,93 @@
+@import '../../foundation/theme';
+
+
+.player {
+    border-bottom: 2px solid silver;
+    height: 92%;
+    flex-direction: column;
+    margin: 0 10px;
+    position: relative;
+    width: 94%;
+    transition: height 1s ease-in-out;
+    @extend %main-display;
+
+    .tower-container {
+        border: 3px solid silver;
+        border-radius: 100%;
+        cursor: pointer;
+        height: 150px;
+        transition: all 1s ease-in-out;
+        width: 150px;
+        @extend %main-display;
+
+        > img {
+            height: 100px;
+            transition: inherit;
+        }
+    }
+
+    .tower-container.rectangle {
+        border-width: 5px;
+        border-radius: 5px;
+        height: 105px;
+        overflow: hidden;
+        width: 105px;
+    }
+
+    > p {
+        color: silver;
+        font-family: 'Bree Serif', serif;
+        transition: opacity 1s ease-in-out;
+        position: absolute;
+
+        &:first-of-type{
+            bottom: 32%;
+        }
+
+        &:nth-of-type(2){
+            bottom: 26.5%;
+        }
+    }
+
+    .select {
+        bottom: 5px;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: bold;
+        left: 0;
+        
+        &:hover {
+            color: map-get($darkColors, 'tertiary')
+        }
+        
+    }
+}
+
+
+.player.close {
+    height: 10%;
+    
+    .tower-container {
+        border-width: 1.5px;
+        height: 40px;
+        margin-right: 80%;
+        transition: all 1s ease-in-out;
+        width: 40px;
+        
+        > img {
+            height: 30px;
+            transition: inherit;
+        }
+    }
+
+    .tower-container.rectangle {
+        border-radius: 0px;
+        height: 35px;
+        width: 35px;
+    }
+}
+
+ .select.fade, p.fade {
+    opacity: 0;
+}
+

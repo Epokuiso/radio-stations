@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import Player from './components/player/player';
+import RadioAudio from './components/radio-audio/radio-audio';
+import StationList from './components/station-list/station-list';
 
-function App() {
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='app-container'>
+      <RadioAudio />
+      <Player />
+      <StationList />
     </div>
   );
 }
